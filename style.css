@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    height: 45px;
+}
+
+.offline-img{
+    order: 1;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 130px;
+}
+
+.background-black{
+    background: black;
+}
+
+.watch-offline{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    border-top: 8px solid #3c3b3b;
+}
+
+.offline-text{
+    color: white;
+    font-family: system-ui;
+    margin-top: 50px;
+    order: 2;
+    margin-left: 70px;
+    text-align: left;
+    font-weight: bold;
+    font-size: large;
+    width: 400px; 
+    white-space: normal;
+}
+
+.watch-tv{
+    display: flex;
+    background: black;
+    flex-direction: end;
+    align-items: center;
+    text-align: center;
+    border-top: 8px solid #3c3b3b;
+}
+
+select{
+   background-color: transparent;
+   color: white;
+   height: 30px;
+   width: 100px;
+   text-align: center;
+   margin-right: 31px;
+}
+
+.tv-text{
+    font-family: system-ui;
+    color: white;
+    margin-left: 70px;
+}
+
+.tv-text h1{
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: left;
+    white-space: nonwrap;
+}
+
+.tv-text h3{
+    text-align:left;
+    width: 400px;
+}
+
+.tv-img{
+    float: right;
+    order: 3;
+    margin-top: 20px;
+    height: auto;
+    margin-left: 200px;
+}
+
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: system-ui;
+}
+
+.banner-container{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner-text h1{
+    font-size: 3em;
+    white-space: nowrap;
+    margin-bottom: 20px;
+}
+
+.banner-text h2{
+    margin-bottom: 20px;
+}
+
+.banner-container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1)),
+                linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1));
+    pointer-events: none;
+}
+
+.banner-img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.email-btn{
+    color: white;
+    background-color: darkred;
+    border-radius: 4px;
+    height: 50px;
+    border: transparent;
+    width: 130px;
+    font-size: large;
+}
+
+.email-input{
+    height: 50px;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: none;
+    width: 300px;
+    max-width: 100%;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.email-input::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.login-btn{
+    color: white;
+    background-color: darkred;
+    border-radius: 4px;
+    height: 30px;
+    border: transparent;
+    width: 80px;
+}
+
+.watch-anywhere{
+    background-color: black;
+    border-top: 8px solid #3c3b3b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.anywhere-text{
+    color: white;
+    order: 1;
+    font-family: system-ui;
+    margin-left: 70px;
+    text-align: left;
+    font-weight: bold;
+    font-size: large;
+    width: 500px; 
+    white-space: normal;
+}
+
+.anywhere-text h1{
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.anywhere-img{
+    order: 2;
+}
+
+.children{
+    background-color: black;
+    border-top: 8px solid #3c3b3b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child-text{
+    color: white;
+    order: 2;
+    font-family: system-ui;
+    margin-left: 70px;
+    text-align: left;
+    font-weight: bold;
+    font-size: large;
+    width: 500px; 
+    white-space: normal;
+}
+
+.child-text h1{
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.child-img{
+    width: 30%; 
+    height: auto;
+}
+
+.faq{
+    background-color: black;
+    border-top: 8px solid #3c3b3b;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.faq-text{
+    color: white;
+    font-family: system-ui;
+    text-align: center;
+    margin-top: 50px;
+}
